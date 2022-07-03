@@ -1,0 +1,92 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Satisfy&display=swap');
+.button-52 {
+  font-size: 26px;
+  color: rgb(203, 219, 158);
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border-radius: 6px;
+  border: 3px solid rgb(236, 140, 140);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+#rangebar{
+    width: 150vh;
+    margin-top: 10px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+      /*  background-color: #ffffff10;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);*/
+}
+h2{
+    opacity: .75rem;
+    font-family: 'Gruppo', cursive;
+    font-weight: 100px;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(rgb(46, 235, 159), rgb(252, 249, 249));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon{
+    margin-top:15px;
+    color: azure;
+    font-size: larger;   
+}
+
+.material-symbols-outlined{
+    height: 20px;
+    font-size: x-large;
+}
+h3{
+    text-align: right;
+    margin-right: 6px;
+    line-break: 2px;
+    padding-top: .45pc;
+    letter-spacing: .25rem;
+    font-family: 'Playball', cursive;
+    background: -webkit-linear-gradient(rgb(226, 235, 46), rgb(210, 151, 151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
